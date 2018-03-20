@@ -1,0 +1,22 @@
+name: tao
+version: '0.0.0'
+github: "jship/tao"
+license: MIT
+author: "Jason Shipman"
+maintainer: "Jason Shipman"
+synopsis: Type-level assertion operators.
+description: Type-level unit testing via assertion operators/functions.
+category: Testing
+
+extra-source-files:
+- CHANGELOG.md
+- LICENSE.md
+- package.yaml
+- README.md
+
+ghc-options: -Wall -Werror
+
+library:
+  dependencies:
+  - base >= 4.9 && < 5
+  source-dirs: library
