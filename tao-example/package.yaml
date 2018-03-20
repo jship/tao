@@ -1,0 +1,23 @@
+name: tao-example
+version: '0.0.0'
+github: "jship/tao"
+license: MIT
+author: "Jason Shipman"
+maintainer: "Jason Shipman"
+synopsis: Example usage of the tao package.
+description: Example usage of type-level assertions using tao.
+category: Testing
+
+extra-source-files:
+- CHANGELOG.md
+- LICENSE.md
+- package.yaml
+- README.md
+
+ghc-options: -Wall -Werror
+
+library:
+  dependencies:
+  - base >= 4.10 && < 5
+  - tao >= 1.0.0 && <1.1.0
+  source-dirs: library
