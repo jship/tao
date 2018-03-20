@@ -14,7 +14,7 @@ extra-source-files:
 - package.yaml
 - README.md
 
-ghc-options: -Wall -Werror
+ghc-options: -Wall
 
 library:
   dependencies:
